@@ -1,6 +1,6 @@
 import axios from 'axios';
 
-const API = axios.create({ baseURL: 'https://audrbarmemories.herokuapp.com/' });
+const API = axios.create({ baseURL: 'https://memories-0742.onrender.com/' });
 
 API.interceptors.request.use((req) => {
   if (localStorage.getItem('profile')) {
