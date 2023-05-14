@@ -2,7 +2,7 @@
     "name": "memories-client",
     "version": "0.1.0",
     "private": true,
-    "proxy": "https://audrbarmemories.herokuapp.com/",
+    "proxy": "https://memories-0742.onrender.com/",
     "dependencies": {
         "@material-ui/core": "^4.9.10",
         "@material-ui/icons": "^4.9.1",
@@ -12,6 +12,7 @@
         "@testing-library/user-event": "^7.1.2",
         "axios": "^0.19.2",
         "jwt-decode": "^3.1.2",
+        "material-ui-chip-input": "^1.1.0",
         "moment": "^2.27.0",
         "react": "^16.12.0",
         "react-dom": "^16.12.0",
