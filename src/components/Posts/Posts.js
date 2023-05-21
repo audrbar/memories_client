@@ -8,9 +8,8 @@ import useStyles from './styles';
 const Posts = ({ setCurrentId }) => {
   const { posts, isLoading } = useSelector((state) => state.posts);
   const classes = useStyles();
-
-  // if (!posts.length && !isLoading) return 'Can not find any memories, sorry!';
-  console.log(posts);
+  console.log('From Posts', posts)
+  if (!posts?.length && !isLoading) return 'Can not find any memories, sorry!';
   return (
     isLoading ? <CircularProgress /> : (
       <Grid className={classes.container} container alignItems="stretch" spacing={3}>
