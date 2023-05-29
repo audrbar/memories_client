@@ -8,7 +8,7 @@ import useStyles from './styles';
 const Posts = ({ setCurrentId }) => {
   const { posts, isLoading } = useSelector((state) => state.posts);
   const classes = useStyles();
-  console.log('From Posts', posts)
+  // console.log('From Posts', posts)
   if (!posts?.length && !isLoading) return 'Can not find any memories, sorry!';
   return (
     isLoading ? <CircularProgress /> : (
